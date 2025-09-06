@@ -1,0 +1,22 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.div{
+    background-image: url(../img/Sharp.jpg);
+    width: 1440px;
+    height: 1024px;
+    color: aliceblue; 
+}
+
+.button{
+    width: 236px;
+    height: 64px;
+    border-radius: 32px;
+    background-color: #094BAC;
+    display: flex; justify-content: center; align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    border: none;
+}
