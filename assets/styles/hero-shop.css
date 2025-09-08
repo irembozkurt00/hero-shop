@@ -1,22 +1,31 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
 }
 
-.div{
-    background-image: url(../img/Sharp.jpg);
+.box {
     width: 1440px;
     height: 1024px;
-    color: aliceblue; 
+    background-image: url(../img/Sharp.jpg);
+     display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.paragraf{
+    width: 920px;
+    height: 364px;
+    text-align: center;
+
 }
 
 .button{
     width: 236px;
     height: 64px;
-    border-radius: 32px;
     background-color: #094BAC;
-    display: flex; justify-content: center; align-items: center;
+    color: #FFFFFF;
+    border-radius: 32px;
     font-family: 'Montserrat', sans-serif;
-    color: aliceblue;
     border: none;
 }
